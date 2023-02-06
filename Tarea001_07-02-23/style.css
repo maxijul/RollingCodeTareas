@@ -1,0 +1,30 @@
+h1{
+   background-color: black; 
+   color: aqua;
+   margin: 50px 50px;
+   border: 20px solid red;
+   padding: 25px 25px;
+   text-align: center;
+}
+
+.contenedor{
+    background-color: blueviolet;
+    color: brown;
+}
+
+#test{
+    background-color: brown;
+    color: aquamarine;
+}
+
+.google{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+.fuente-local{
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    src: url("./assets/fonts/RobotoMono-Medium.ttf");
+}
