@@ -1,0 +1,70 @@
+.robot {
+  position: relative;
+  left: 200px;
+}
+
+.cabeza {
+  position: relative;
+  left: 70px;
+  background: radial-gradient(circle, red 25%, transparent 20%), #cc5;
+  background-size: 75px 55px;
+  height: 150px;
+  width: 150px;
+  background-color: #87868c;
+  border-radius: 60px 60px 10px 10px;
+  border-bottom: 40px double #666;
+  border-left: 20px double #666;
+}
+
+.antena {
+  position: relative;
+  left: 140px;
+  width: 5px;
+  height: 0;
+  border: 6px solid transparent;
+  border-top: 10px solid #777;
+  border-radius: 5px;
+  border-bottom: 80px solid #888;
+}
+
+.torso {
+  height: 0;
+  width: 140px;
+  border-top: 300px solid #aaa9ad;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-radius: 20px 20px 100px 100px;
+}
+
+.piernas {
+  position: relative;
+  border: 15px solid #999;
+  border-radius: 40px;
+  height: 40px;
+  width: 40px;
+  background: #ccc;
+  left: 110px;
+}
+
+.izq {
+  position: relative;
+  font-family: "Poller One", verdana, arial, sans-serif;
+  font-weight: bold;
+  font-size: 250px;
+  color: #1f1f1f;
+  transform: rotate(200deg);
+  left: -190px;
+  top: -320px;
+  z-index: -1;
+}
+.der {
+  font-family: "Poller One", verdana, arial, sans-serif;
+  font-weight: bold;
+  font-size: 250px;
+  color: #1f1f1f;
+  transform: scaleY(-1) rotate(20deg);
+  position: relative;
+  left: 190px;
+  top: -620px;
+  z-index: -1;
+}
