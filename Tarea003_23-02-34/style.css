@@ -1,0 +1,57 @@
+:root {
+  --nav-color: #03001C;
+  --main-color: #301E67;
+  --footer-color: #5B8FB9;
+}
+
+main {
+  background-color: var(--main-color);
+}
+
+.navcolor {
+  background-color: var(--nav-color);
+}
+
+.carouselMargin {
+  padding: 15px 0px 0px 15px;
+  margin-left: 20%;
+}
+.carouselImagen {
+  width: 755px;
+  height: 400px;
+  box-shadow: -5px 5px 10px;
+}
+
+.cartas {
+  box-shadow: -5px 5px 10px;
+}
+
+.marginCartas {
+  margin: 25px;
+}
+
+.asidePublicidad {
+  height: 600px;
+  width: 300px;
+}
+
+footer {
+  font-size: 25px;
+  background-color: var(--footer-color);
+  padding-bottom: 40px;
+}
+.redes {
+  padding-top: 40px;
+}
+.iconosRedes {
+  margin: 20px;
+}
+.e404{
+    font-size: 120px;
+}
+
+body {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
