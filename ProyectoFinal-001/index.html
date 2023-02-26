@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <title>Proyecto Integrador</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a href="#">
+          <img
+            src="./assets/icon/cart_shop.png"
+            alt="Carrito"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          </a>
+          <a class="navbar-brand active acnavweb">NavWeb</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link border border-white" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link border border-white" href="#">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link border border-white" href="#"
+                  >Acerca de nosotros</a
+                >
+              </li>
+            </ul>
+            <div class="navbar-nav mb-lg-0">
+              <li class="nav-item">
+                <button
+                  type="button"
+                  class="btn btn-outline-light"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Ingresar
+                </button>
+                <div
+                  class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                          Ingrese sus datos
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="mb-3 row">
+                          <label
+                            for="exampleFormControlInput1"
+                            class="col-sm-2 col-form-label"
+                            >Email</label
+                          >
+                          <div class="col-sm-10">
+                            <input
+                              type="email"
+                              class="form-control"
+                              id="exampleFormControlInput1"
+                              placeholder="nombre@ejemplo.com"
+                            />
+                          </div>
+                        </div>
+                        <div class="mb-3 row">
+                          <label
+                            for="inputPassword"
+                            class="col-sm-2 col-form-label"
+                            >Contraseña</label
+                          >
+                          <div class="col-sm-10">
+                            <input
+                              type="password"
+                              class="form-control"
+                              id="inputPassword"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-outline-dark"
+                          data-bs-dismiss="modal"
+                        >
+                          Cerrar
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-outline-primary"
+                          data-bs-dismiss="modal"
+                        >
+                          Ingresar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>&nbsp;</li>
+              <li class="nav-item">
+                <a class="btn btn-outline-light" href="#" role="button">Registrar</a>
+              </li>
+              <li>&nbsp;</li>
+            </div>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar productos"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success btn-outline-light"
+                type="submit"
+              >
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <article>
+      <div class="art1">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active navcarrusel d-flex justify-content-center">
+            <img src="./assets/img/2451221.jpg" class="d-block" height="400">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="carruselCaption carruselTransp">Este es un titulo</h2>
+              <div>
+                <p class="carruselCaption carruselTransp">Este es un subtitulo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+    </article>
+    <main>
+        <h2> MAIN </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quisquam error eum officiis magni quae quas sapiente maxime, unde omnis aut iure adipisci voluptatum perferendis deserunt rerum! In, facere dicta!
+        Nulla, delectus, commodi dicta quam iste, dolores similique distinctio eum hic ipsa dolorum nisi voluptates aliquam veritatis officiis maiores provident optio soluta? Exercitationem laudantium, asperiores similique sit quidem assumenda alias!
+        Omnis, adipisci placeat! Perspiciatis ipsam consequatur, debitis consectetur aspernatur alias optio ipsa facere sunt possimus magni ducimus adipisci soluta, provident porro nam repudiandae quam in, reprehenderit nemo incidunt quas consequuntur.
+        Dicta et nam aliquid amet dolorem natus ut nulla dolor rem architecto, accusamus id itaque molestiae ipsam earum, sed ab sequi, ipsa perspiciatis corrupti. Voluptas dolorum aliquid accusamus odit alias.
+        Quasi nam cumque, at dignissimos eum aspernatur impedit, error consectetur quisquam dolor nobis nihil minus omnis fuga perferendis delectus, voluptatem iure culpa nulla et ea. Dignissimos veritatis quo ab nemo!
+        Ipsa distinctio temporibus est necessitatibus exercitationem maiores omnis sunt dolore culpa ipsum placeat sapiente, consequuntur, velit praesentium esse eveniet ex dolores impedit molestiae quia quo ab nemo. A, praesentium ducimus!
+        Nemo est ratione qui laudantium perspiciatis nostrum eaque officia doloremque corporis quae at distinctio voluptas, sequi voluptatibus? Aut libero inventore quia facilis repellat ipsa doloribus debitis pariatur, error accusantium nesciunt.
+        Libero saepe blanditiis ducimus enim. Inventore dicta dolorum soluta. Vel repellat eius vitae unde perspiciatis ut saepe ex rerum possimus sequi, laborum veniam totam aperiam nesciunt quo, quos animi sapiente?
+        Ipsum earum repellendus minima quos nam quod impedit eius quam delectus molestiae voluptatum labore nostrum, omnis, cupiditate saepe quisquam ut, perspiciatis consectetur quia inventore qui. Maiores non necessitatibus magnam rem.
+        Deserunt nam quidem vero dolor harum corporis magnam dicta aperiam, unde at, vitae veritatis, quos explicabo laboriosam rem sequi corrupti debitis atque saepe itaque. Est blanditiis optio nihil officiis pariatur!
+        Dolores, aspernatur ea. Reiciendis culpa, fugiat numquam iste quia porro est neque vitae nam modi adipisci esse maiores nulla ipsum facere eveniet. Natus corrupti deserunt illum doloribus iure quibusdam voluptatem.
+        Facilis consequatur sapiente quisquam obcaecati ipsa, commodi minima placeat quibusdam eum. Est accusantium, nisi voluptatum quibusdam quidem reprehenderit consequuntur ex eius vitae laborum cum, praesentium perspiciatis iusto a placeat fugiat!
+        Deserunt sed modi repudiandae explicabo incidunt quas quod at unde doloremque deleniti, eveniet saepe nemo possimus ex recusandae nam magni accusantium architecto reprehenderit. Atque eligendi nihil, praesentium quaerat dolores aperiam.
+        Unde voluptates nemo obcaecati possimus, facilis harum! Adipisci aperiam consequatur placeat perferendis omnis earum consequuntur nesciunt doloribus? In est error nam ullam deserunt odio rerum, reprehenderit praesentium accusantium, eum dignissimos.
+        Reiciendis atque dolor corrupti. Quos iste vitae provident. Atque odio in accusantium, repellat minima nesciunt tempora dolorem, numquam non eligendi, recusandae perferendis soluta vero. Natus, minus itaque! Consequuntur, earum velit!
+        Accusantium, similique officia voluptatibus et, nulla magnam cupiditate fuga, deleniti est obcaecati magni! Mollitia eos consectetur officia labore adipisci repellendus, sapiente soluta obcaecati recusandae, laudantium nobis, reiciendis quae voluptas asperiores?
+        Omnis ipsam incidunt distinctio temporibus perspiciatis repellat explicabo aperiam at impedit recusandae qui voluptates, sed neque fugit unde earum, necessitatibus est doloribus. Unde quibusdam, molestiae commodi architecto eaque sint quas.
+        Facere, nostrum nisi facilis, quod quibusdam dolor modi culpa provident, eos natus eligendi ducimus nam magnam repellat et sed ullam! Pariatur numquam dignissimos eaque? Molestiae voluptatibus quas ex sint voluptas.
+        Repellendus, quas impedit? Quidem culpa inventore vel ullam magni, esse voluptas delectus possimus voluptatibus blanditiis, deserunt molestias sed. Necessitatibus ex eligendi corrupti, ab fuga adipisci iste sint perspiciatis nesciunt repudiandae.
+        Sequi nostrum mollitia commodi vitae ipsam expedita ut, maiores neque aspernatur, unde voluptates cumque quidem officia corrupti, explicabo reiciendis delectus rem animi error facere! Nostrum debitis asperiores aperiam ea dolore?
+        Provident quas, eaque laborum fuga maiores fugiat velit debitis beatae dolor aliquam culpa laboriosam animi nemo odio a hic dolores, recusandae ipsa eius eveniet architecto excepturi aut? Molestiae, hic non.
+        Nam iste autem voluptates voluptate laborum quae voluptatem! Ipsam nesciunt doloribus, exercitationem aliquam odio magni deserunt laboriosam ratione facilis accusantium autem, consequatur dolorum corrupti quae voluptate velit earum quos neque.
+        Quibusdam dolor consectetur recusandae rem consequatur quo tenetur quis aut saepe facere deleniti ut, deserunt fuga, vel itaque officia eveniet ratione incidunt? Ex odio hic fugit optio eius quae beatae.
+        Labore distinctio esse eligendi excepturi fugit, quo debitis reprehenderit cupiditate deleniti iusto sit, blanditiis dolores veniam repudiandae perferendis? Libero aliquid doloribus autem dolores! Corporis iusto omnis placeat sed nihil repudiandae.
+        Nesciunt ut nobis quae impedit eveniet libero exercitationem esse. Unde aut debitis nobis, ex repellat quibusdam, sapiente explicabo itaque autem quaerat alias in quia ut, non rerum perspiciatis. Repellendus, adipisci!
+        Enim, neque. Blanditiis tenetur ex asperiores assumenda quo necessitatibus? Facilis molestias asperiores placeat odio? Neque optio repellendus mollitia earum odit rerum in, ipsa placeat consequuntur vitae vero dolorem labore? Expedita!
+        Delectus quae fugit earum excepturi id nihil aliquid perferendis cum eos perspiciatis rerum, quaerat, consequuntur, exercitationem vel odit tenetur repellendus nam. Quibusdam exercitationem nulla nesciunt ipsa provident molestiae dolor quas?
+        Fuga, odio laboriosam quos distinctio reiciendis labore aut quaerat veniam. Fugit minima voluptatibus quaerat? Facere atque odit corrupti eaque, numquam labore ullam quibusdam fugit, voluptas earum ab facilis aliquid neque.
+        Illum, dolores qui. Qui, sunt veritatis deserunt ex dicta dolor? Quisquam odio nihil a tempora nobis harum placeat ad! Dolorem odio consequuntur sit! Eaque, explicabo inventore. Eveniet quasi unde est!
+        Perferendis nihil ea, dicta vero eos illum rerum. Iusto, dignissimos, ipsum possimus soluta consequatur porro dolore molestias, provident perspiciatis ea cupiditate minus! Est ipsam sit mollitia, natus numquam laborum sapiente?
+        Exercitationem molestias saepe consequatur sit necessitatibus dignissimos earum aut nostrum tempore ducimus praesentium nobis rem, eligendi rerum ratione quasi sed quam iure labore recusandae. Reiciendis nulla doloribus ratione officiis architecto!
+        Ullam rerum voluptates, illum culpa quia deserunt. Cupiditate quibusdam quo explicabo a obcaecati quos mollitia alias id distinctio veniam. Placeat aut possimus harum maxime enim quos. Tempore dolorum dolores perspiciatis.
+        Adipisci dignissimos vel aut! Hic vero accusamus recusandae neque perspiciatis suscipit tempora cupiditate sequi ullam facere expedita nulla enim possimus mollitia sapiente iusto illum, nisi quod aperiam. Eius, illo assumenda.
+        Dicta veniam architecto quo officiis earum necessitatibus tempore. Nulla earum explicabo sequi ullam vero laboriosam. Numquam libero molestiae iste deleniti ipsum. Maxime vero laboriosam perspiciatis quos! Sequi quo placeat aut.
+        Consequuntur sint ex doloremque dignissimos quisquam aperiam cum. Unde similique reprehenderit ullam accusantium repellendus suscipit obcaecati aliquam! Sapiente harum obcaecati tenetur commodi autem asperiores maiores assumenda? Placeat accusantium quo non!
+        Velit odio reprehenderit ex nostrum saepe dignissimos autem ipsum? Sunt officia et beatae alias ea modi a, exercitationem dolorum veritatis neque quis non quas. Reprehenderit iste facilis esse quo nostrum.
+        Aliquam sint veritatis reprehenderit totam minus enim quia a illo alias facere placeat tempore consequatur vitae eius iure minima modi numquam, ea libero voluptatem fuga, ducimus, est vel error? Consequatur.
+        Ut a, quas repellendus optio quis nostrum. Accusantium optio repellat maiores fuga unde vero, veniam ex assumenda, consectetur voluptas, nesciunt vitae delectus corrupti ab non? Hic quo exercitationem aut dolore.
+        Quaerat fuga dicta eaque labore? Sed nam obcaecati ea voluptate, tempore molestias cumque similique laudantium aspernatur! Architecto quia aliquam perferendis eveniet doloribus rerum animi. Nisi inventore fugit magnam ipsum quaerat.
+        Aut laboriosam ad similique voluptas facere dicta numquam, nemo optio doloremque alias sapiente at velit soluta modi eius? Vitae in eum eaque voluptatum cupiditate voluptas officiis nisi. Quia, et provident.
+        Enim dignissimos ad quos atque voluptates! Aliquam inventore itaque quia nesciunt saepe sequi, velit eaque blanditiis neque nostrum dicta iste molestiae, incidunt iure ullam a quas, adipisci nobis porro quod.
+        Similique consequuntur esse minus illo in illum quibusdam quae, corrupti enim doloribus, aut tempora suscipit sit soluta mollitia harum! Porro ad eum placeat corporis qui ipsum dolorum aliquam error repudiandae?
+        Repudiandae ad vero placeat, mollitia dolorum fugit quas accusamus hic debitis delectus et optio, voluptates eveniet fugiat. Consequatur animi aperiam recusandae, a exercitationem accusantium doloremque excepturi. Itaque excepturi maxime exercitationem?
+        Rem inventore laboriosam, sequi quas laborum veritatis architecto et perspiciatis repellendus voluptates accusamus, veniam culpa quae earum beatae vitae? Error repudiandae reiciendis soluta. Quisquam repellendus, omnis eum nam ex voluptatum.
+        Ducimus earum recusandae pariatur, officia debitis minus, adipisci quis obcaecati et vitae corporis sequi aliquam! Veritatis deleniti asperiores atque nobis ad quo debitis ducimus accusantium voluptatibus minus eos, expedita soluta?
+        Commodi dolore optio architecto doloribus odit. Dicta quis aspernatur ex aut eligendi, voluptatem quo iste! Facilis reprehenderit mollitia natus asperiores quia! Quibusdam, dolore fuga officia voluptatibus unde aut reprehenderit ipsa.
+        Quibusdam dicta enim libero, illo culpa quia obcaecati laudantium adipisci, harum illum numquam fugiat. Sint eaque unde nihil! Atque assumenda, dolor incidunt voluptatem ea quidem animi. Asperiores in molestiae totam.
+        Cupiditate, earum? Aliquid, debitis. Quae sequi quos, corrupti doloremque, fugit distinctio minus voluptatum alias adipisci possimus molestias quia beatae maxime voluptatem exercitationem voluptate, corporis repudiandae quaerat quidem molestiae maiores cum!
+        Nesciunt excepturi quas a minima cupiditate nobis suscipit natus facilis omnis unde ratione, aliquid illo aspernatur. Quos laudantium dolore voluptatum modi ea provident, ex doloremque necessitatibus iusto rerum nulla cumque.
+        Esse enim velit molestiae, adipisci animi iure quae assumenda? Molestias saepe doloremque, explicabo vel dolorum excepturi molestiae perspiciatis sapiente obcaecati distinctio praesentium animi consequuntur, porro illum aspernatur enim officiis eum.</p>
+    </main>
+    <!-- INICIO FOOTER -->
+    <footer class="bg-dark text-white text-center text-lg-start">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+              Experiencias y Turismo
+            </h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Voluptatem quae facilis id vel velit amet accusantium! Modi
+              reiciendis ratione, harum laborum, ullam necessitatibus quibusdam
+              aliquam in accusantium doloremque soluta? Dolores!
+            </p>
+
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Redes Sociales</h5>
+            <ul class="list-unstyled list-inline">
+               <li class="list-inline-item">
+                  <a href="#" class="text-white" style="font-size: 23px; text-decoration: none;"><i class="fa-brands fa-facebook"></i></a>
+               </li>
+               <li class="list-inline-item">
+                  <a href="#" class="text-white" style="font-size: 23px; text-decoration: none;"><i class="fa-brands fa-instagram"></i></a>
+               </li>
+               <li class="list-inline-item">
+                  <a href="#" class="text-white" style="font-size: 23px; text-decoration: none;"><i class="fa-brands fa-youtube"></i></a>
+               </li>
+               <li class="list-inline-item">
+                  <a href="#" class="text-white" style="font-size: 23px; text-decoration: none;"><i class="fa-brands fa-tiktok"></i></a>
+               </li>
+               <li class="list-inline-item">
+                  <a href="#" class="text-white" style="font-size: 23px; text-decoration: none;"><i class="fa-brands fa-whatsapp"></i></a>
+               </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Preguntas Frecuentes</h5>
+            <ul class="list-unstyled list-inline">
+               <li>
+                  <a href="#" class="text-white" style="text-decoration: none">¿Cómo armar mi viaje?</a>
+               </li>
+               <li>
+                  <a href="#" class="text-white" style="text-decoration: none">¿Qué formas de pago tienen?</a>
+               </li>
+               <li>
+                  <a href="#" class="text-white" style="text-decoration: none">¿Qué seguros medicos me cubren?</a>
+               </li>
+               <li>
+                  <a href="#" class="text-white" style="text-decoration: none">¿Que incluyen los distintos packs de viajes?</a>
+               </li>
+               <li>
+                  <a href="./acercaDeNosotros.html" class="text-white" style="text-decoration: none">Acerca de Nosotros</a>
+               </li>
+            </ul>
+         </div>
+
+         <hr class="mb-4">
+
+         <div class="row align-items-center">
+
+            <div class="col-md-7 col-lg-8">
+               <p>Copyright © Todos los derechos reservados por: 
+                  <a href="#" style="text-decoration: none">
+                     <strong class="text-warning">Experiencias y Turismo</strong>
+                  </a>
+               </p>
+            </div>
+
+         </div>
+
+        </div>
+      </div>
+    </footer>
+
+    <!-- FIN FOOTER -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+    src="https://kit.fontawesome.com/2970c1cf68.js"
+    crossorigin="anonymous"
+  ></script>
+  </body>
+</html>

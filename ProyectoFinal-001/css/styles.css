@@ -1,0 +1,41 @@
+main{
+    background-color: #CBF1F5;
+}
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+article{
+    background-color: #A6E3E9;
+}
+nav{
+    background-color: #71C9CE;
+}
+footer{
+    background-color: #E3FDFD;
+}
+.navbar-brand{
+    color: white !important;
+}
+.nav-link{
+    color: white !important;
+    margin: 2px;
+    border-radius: 10px;
+}
+.navcarrusel{
+    height: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.carruselCaption{
+    color: black;
+}
+.carruselTransp{
+    background-color: rgba(61, 50, 110, 0.164);
+    display: inline-block;
+    border-radius: 6px;
+}
+.acnavweb{
+    margin: 6px;
+}
